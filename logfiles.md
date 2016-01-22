@@ -48,10 +48,10 @@ The moodle plugin is a log file extension, and therefore can only use items in t
             "homePage": "[core.appurl]"
         }
 ```
-**Verb**
+**Verb and object**
 
-       [moodle.eventname] | route | verb
-       ---|---|---
+       [moodle.eventname] | route | verb | object.id | object.definition.type
+       ---|---|---|---|---
         '\core\event\course_viewed' | 'CourseViewed',| http://id.tincanapi.com/verb/viewed
         '\mod_page\event\course_module_viewed' |  'ModuleViewed',| http://id.tincanapi.com/verb/viewed
         '\mod_quiz\event\course_module_viewed' |  'ModuleViewed',| http://id.tincanapi.com/verb/viewed
@@ -80,7 +80,7 @@ The moodle plugin is a log file extension, and therefore can only use items in t
         '\mod_quiz\event\attempt_preview_started' |  'AttemptStarted',| 
         '\mod_quiz\event\attempt_reviewed' | 'AttemptReviewed',| 
         '\mod_quiz\event\attempt_viewed' | 'ModuleViewed',| http://id.tincanapi.com/verb/viewed
-        '\core\event\user_loggedin' | 'UserLoggedin',| 
+        '\core\event\user_loggedin' | 'UserLoggedin',| https://brindlewaye.com/xAPITerms/verbs/loggedin/|[core.appurl]|http://activitystrea.ms/schema/1.0/application
         '\core\event\user_loggedout' |  'UserLoggedout',| 
         '\mod_assign\event\submission_graded' |  'AssignmentGraded',| 
         '\mod_assign\event\assessable_submitted' |  'AssignmentSubmitted',| 
