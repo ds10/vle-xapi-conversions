@@ -24,6 +24,8 @@ http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=3
 
 ** Blackboard**
 
+The following is currently a similar, but not identifical, event:
+
 ```CONTENT_ACCESS,0000184D8,BRM4520,NULL,NULL,NULL,367159,NULL,2015-04-22 09:56:13.527,1,9023282```
 
 ###A3 demouser views a page
@@ -39,8 +41,8 @@ http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=5
 
 http://moodle.data.alpha.jisc.ac.uk/mod/url/view.php?id=6
 
-``4	'\\mod_url\\event\\course_module_viewed'	'mod_url'	'viewed'	'course_module'	'url'	1	'r'	2	34	70	6	3	3	NULL	0	'N;'	1453204798	'web'	'86.156.130.212'	NULL
-``
+``4	'\\mod_url\\event\\course_module_viewed'	'mod_url'	'viewed'	'course_module'	'url'	1	'r'	2	34	70	6	3	3	NULL	0	'N;'	1453204798	'web'	'86.156.130.212'	NULL```
+
 * [xapi - moodle via xapi plugin](manual/A4.js)
 * [xapi moodle via log convertor](auto/A4.js)
 
@@ -55,10 +57,15 @@ http://moodle.data.alpha.jisc.ac.uk/mod/resource/view.php?id=7
 
 ###A6  demouser views a forum
 
+**Moodle**
 ``6	'\\mod_forum\\event\\course_module_viewed'	'mod_forum'	'viewed'	'course_module'	'forum'	3	'r'	2	32	70	4	3	3	NULL	0	'N;'	1453204837	'web'	'86.156.130.212'	NULL``
 
 * [xapi - moodle via xapi plugin](manual/A6.js)
 * [xapi moodle via log convertor](auto/A6.js)
+* 
+**Blacboard**
+```COURSE_ACCESS,0000184D8,BRM4520,NULL,NULL,discussion_board,NULL,Discussion Board,2015-04-22 09:56:35.537,1,9023282```
+
 
 ###A7 demouser logs out
 
