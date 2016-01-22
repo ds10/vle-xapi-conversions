@@ -26,9 +26,11 @@ http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=3
 
 The following is currently a similar, but not identifical, event:
 
-```CONTENT_ACCESS,0000184D8,BRM4520,NULL,NULL,NULL,367159,NULL,2015-04-22 09:56:13.527,1,9023282```
+``CONTENT_ACCESS,0000184D8,BRM4520,NULL,NULL,NULL,367159,NULL,2015-04-22 09:56:13.527,1,9023282``
 
 ###A3 demouser views a page
+
+** Moodle**
 
 http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=5
 
@@ -36,6 +38,12 @@ http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=5
 
 * [xapi - moodle via xapi plugin](manual/A3.js)
 * [xapi moodle via log convertor](auto/A3.js)
+* 
+** Blackboard**
+
+The following is currently a similar, but not identifical, event:
+
+``COURSE_ACCESS,000011A71,PS11610,NULL,NULL,,NULL,/webapps/blackboard/execute/modulepage/view,2015-03-21 14:57:07.747,1,8722398``
 
 ###A4 demouser views a URL
 
@@ -48,12 +56,19 @@ http://moodle.data.alpha.jisc.ac.uk/mod/url/view.php?id=6
 
 ###A5 demouser views a word document
 
+**Moodle **
 http://moodle.data.alpha.jisc.ac.uk/mod/resource/view.php?id=7 
 
 ``5	'\\mod_resource\\event\\course_module_viewed'	'mod_resource'	'viewed'	'course_module'	'resource'	1	'r'	2	35	70	7	3	3	NULL	0	'N;'	1453204818	'web'	'86.156.130.212'	NULL``
 
 * [xapi - moodle via xapi plugin](manual/A5.js)
 * [xapi moodle via log convertor](auto/A5.js)
+
+**Blackboard**
+
+The following is currently a similar, but not identifical, event:
+
+``COURSE_ACCESS,00001113A,MP12910,NULL,NULL,content,438710,Excel,2015-03-02 23:40:13.807,1,8468814``
 
 ###A6  demouser views a forum
 
@@ -63,11 +78,12 @@ http://moodle.data.alpha.jisc.ac.uk/mod/resource/view.php?id=7
 
 * [xapi - moodle via xapi plugin](manual/A6.js)
 * [xapi moodle via log convertor](auto/A6.js)
-* 
+
 **Blacboard**
 
-``COURSE_ACCESS,0000184D8,BRM4520,NULL,NULL,discussion_board,NULL,Discussion Board,2015-04-22 09:56:35.537,1,9023282``
+The following is currently a similar, but not identifical, event:
 
+``COURSE_ACCESS,0000184D8,BRM4520,NULL,NULL,discussion_board,NULL,Discussion Board,2015-04-22 09:56:35.537,1,9023282``
 
 ###A7 demouser logs out
 
