@@ -112,3 +112,13 @@ Docs for activity_accumulator
   messages| 	ntext	| 				
   session_id	| int	| 			
 
+**Actor**
+```
+"actor": {
+        "objectType": "Agent",
+        "name": [Not provided],
+        "account": {
+            "name": "[blackboard.user_pk1]",
+            "homePage": "[core.appurl]"
+        }
+```
