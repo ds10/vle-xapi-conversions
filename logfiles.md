@@ -4,7 +4,8 @@
 
 ##Blackboard
 
-[http://library.blackboard.com/ref/1cd128b5-9264-4afa-bb75-ec72ad211158/tables/as_core/activity_accumulator.html#column-event_type] (Docs for activity_accumulator)
+Docs for activity_accumulator
+[http://library.blackboard.com/ref/1cd128b5-9264-4afa-bb75-ec72ad211158/tables/as_core/activity_accumulator.html#column-event_type] (http://library.blackboard.com/ref/1cd128b5-9264-4afa-bb75-ec72ad211158/tables/as_core/activity_accumulator.html#column-event_type)
 
 pk1	int		This is the surrogate primary key for the table.
 
