@@ -1,17 +1,19 @@
 ### A1 - demouser login
 
-Moodle
+**Moodle**
 
 ``1	'\\core\\event\\user_loggedin'	'core'	'loggedin'	'user'	'user'	3	'r'	0	1	10	0	3	0	NULL	0	'a:1:{s:8:\"username\";s:8:\"demouser\";}'	1453204740	'web'	'86.156.130.212'	NULL``
 
 * [xapi - moodle via xapi plugin](manual/A1.js)
 * [xapi moodle via log convertor](auto/A1.js)
 
-Blackboard 
+**Blackboard**
 
 No equivalent logfile event
 
 ###A2 demouser views a course
+
+**Moodle**
 
 http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=3
 
@@ -19,6 +21,10 @@ http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=3
 
 * [xapi - moodle via xapi plugin](manual/A2.js)
 * [xapi moodle via log convertor](auto/A2.js)
+
+** Blackboard**
+
+```CONTENT_ACCESS,0000184D8,BRM4520,NULL,NULL,NULL,367159,NULL,2015-04-22 09:56:13.527,1,9023282```
 
 ###A3 demouser views a page
 
