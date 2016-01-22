@@ -15,7 +15,7 @@ No equivalent logfile event
 
 **Moodle**
 
-http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=3
+Item viewed: http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=3
 
 ``2	'\\core\\event\\course_viewed'	'core'	'viewed'	'course'	NULL	NULL	'r'	2	26	50	3	3	3	NULL	0	'N;'	1453204748	'web'	'86.156.130.212'	NULL``
 
@@ -32,7 +32,7 @@ The following is currently a similar, but not identifical, event:
 
 ** Moodle**
 
-http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=5
+Item viewed: http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=5
 
 ``3	'\\mod_page\\event\\course_module_viewed'	'mod_page'	'viewed'	'course_module'	'page'	2	'r'	2	33	70	5	3	3	NULL	0	'N;'	1453204773	'web'	'86.156.130.212'	NULL``
 
@@ -47,7 +47,7 @@ The following is currently a similar, but not identifical, event:
 
 ###A4 demouser views a URL
 
-http://moodle.data.alpha.jisc.ac.uk/mod/url/view.php?id=6
+Item viewed: http://moodle.data.alpha.jisc.ac.uk/mod/url/view.php?id=6
 
 ``4	'\\mod_url\\event\\course_module_viewed'	'mod_url'	'viewed'	'course_module'	'url'	1	'r'	2	34	70	6	3	3	NULL	0	'N;'	1453204798	'web'	'86.156.130.212'	NULL```
 
@@ -57,7 +57,7 @@ http://moodle.data.alpha.jisc.ac.uk/mod/url/view.php?id=6
 ###A5 demouser views a word document
 
 **Moodle **
-http://moodle.data.alpha.jisc.ac.uk/mod/resource/view.php?id=7 
+Item viewed: http://moodle.data.alpha.jisc.ac.uk/mod/resource/view.php?id=7 
 
 ``5	'\\mod_resource\\event\\course_module_viewed'	'mod_resource'	'viewed'	'course_module'	'resource'	1	'r'	2	35	70	7	3	3	NULL	0	'N;'	1453204818	'web'	'86.156.130.212'	NULL``
 
