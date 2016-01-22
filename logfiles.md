@@ -37,7 +37,8 @@ The moodle plugin is a log file extension, and therefore can only use items in t
   `origin`|  varchar(10)|  | NOT USED
   `ip` | varchar(45) |  | NOT USED
   `realuserid`|  bigint(10)|  DEFAULT NULL, | NOT USED
-  
+
+**Actor**
 ```
 "actor": {
         "objectType": "Agent",
