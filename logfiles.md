@@ -1,12 +1,12 @@
 ## Core variable
 
-uriBase = 'http://vle.jisc.ac.uk/'
-appurl = 'http://vle.jisc.ac.uk/'
-homepage = "http://vle.jisc.ac.uk/";
-info = 'University of Jisc Moodle';
-appsummary= 'Jisc VLE'
-appname = 'Jisc VLE';
-lang = 'en';
+   uriBase = 'http://vle.jisc.ac.uk/'
+   appurl = 'http://vle.jisc.ac.uk/'
+   homepage = "http://vle.jisc.ac.uk/";
+   info = 'University of Jisc Moodle';
+   appsummary= 'Jisc VLE'
+   appname = 'Jisc VLE';
+   lang = 'en';
 
 ##Moodle
 
