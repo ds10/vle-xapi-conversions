@@ -1,3 +1,13 @@
+## Core variable
+
+uriBase = 'http://vle.jisc.ac.uk/'
+appurl = 'http://vle.jisc.ac.uk/'
+homepage = "http://vle.jisc.ac.uk/";
+info = 'University of Jisc Moodle';
+appsummary= 'Jisc VLE'
+appname = 'Jisc VLE';
+lang = 'en';
+
 ##Moodle
 
 The moodle plugin is a log file extension, and therefore can only use items in the log file.  The table definition is as follows:
@@ -26,6 +36,17 @@ The moodle plugin is a log file extension, and therefore can only use items in t
   `origin`|  varchar(10)|  | NOT USED
   `ip` | varchar(45) |  | NOT USED
   `realuserid`|  bigint(10)|  DEFAULT NULL, | NOT USED
+  
+```
+"actor": {
+        "objectType": "Agent",
+        "name": [Not provided],
+        "account": {
+            "name": "[moodle.userid]",
+            "homePage": "[core.appurl]"
+        }
+```
+
 
 
 ##Blackboard
