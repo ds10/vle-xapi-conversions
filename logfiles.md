@@ -5,27 +5,27 @@ The moodle plugin is a log file extension, and therefore can only use items in t
 
    field | type | more | xapi 
    ---|---|---|---
-   `id` |bigint(10) |NOT NULL AUTO_INCREMENT | not used
+   `id` |bigint(10) |NOT NULL AUTO_INCREMENT | NOT USED
  `eventname`|  varchar(255) | NOT NULL DEFAULT '', | used by plugin to determine verb
   `component`|  varchar(100)|  NOT NULL DEFAULT '', | used to construct part of object ID
   `action`|  varchar(100) | NOT NULL DEFAULT '', | used to construct part of object ID
-  `target`|  varchar(100)|  NOT NULL DEFAULT '',
-  `objecttable` | varchar(50)|  DEFAULT NULL,
-  `objectid` | bigint(10) | DEFAULT NULL,
-  `crud` | varchar(1) | NOT NULL DEFAULT '',
-  `edulevel` | tinyint(1) | NOT NULL,
-  `contextid`|  bigint(10)|  NOT NULL,
-  `contextlevel` | bigint(10)|  NOT NULL,
-  `contextinstanceid` | bigint(10)|  NOT NULL,
+  `target`|  varchar(100)|  NOT NULL DEFAULT '',| NOT USED
+  `objecttable` | varchar(50)|  DEFAULT NULL,| NOT USED
+  `objectid` | bigint(10) | DEFAULT NULL,| NOT USED
+  `crud` | varchar(1) | NOT NULL DEFAULT '',| NOT USED
+  `edulevel` | tinyint(1) | NOT NULL,| NOT USED
+  `contextid`|  bigint(10)|  NOT NULL,| NOT USED
+  `contextlevel` | bigint(10)|  NOT NULL,| NOT USED
+  `contextinstanceid` | bigint(10)|  NOT NULL,| NOT USED
   `userid` | bigint(10)|  NOT NULL,| actor.account.name
-  `courseid` | bigint(10) | DEFAULT NULL 
-  `relateduserid`|  bigint(10) | DEFAULT NULL,
-  `anonymous` | tinyint(1)|  NOT NULL DEFAULT '0',
-  `other`|  longtext| ,
+  `courseid` | bigint(10) | DEFAULT NULL  | maps to courseid
+  `relateduserid`|  bigint(10) | DEFAULT NULL, | NOT USED
+  `anonymous` | tinyint(1)|  NOT NULL DEFAULT '0', | NOT USED
+  `other`|  longtext| ,| NOT USED
   `timecreated` | bigint(10) | NOT NULL,| timestamp
-  `origin`|  varchar(10)|  DEFAULT NULL,
-  `ip` | varchar(45) | DEFAULT NULL,
-  `realuserid`|  bigint(10)|  DEFAULT NULL,
+  `origin`|  varchar(10)|  DEFAULT NULL, | NOT USED
+  `ip` | varchar(45) | DEFAULT NULL, | NOT USED
+  `realuserid`|  bigint(10)|  DEFAULT NULL, | NOT USED
 
 
 ##Blackboard
