@@ -54,7 +54,9 @@ The moodle plugin is a log file extension, and therefore can only use items in t
 ```
 **Verb and object**
 
-Note: This is a wide table with horizontal scroll bars
+Note: This is a wide table with horizontal scroll bars.
+
+In moodle the 'eventname' field usually provides enough to provide the verb, the some of the object.id and the object.type.definition
 
        [moodle.eventname] | route | verb | object.id | object.definition.type
        ---|---|---|---|---
