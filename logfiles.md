@@ -40,7 +40,7 @@ Docs for activity_accumulator
   user_pk1	|    int	| 	referencing the primary key of the [AS_CORE].users table. 
   course_pk1| 	int	|    referencing the primary key of the [AS_CORE].course_main table.
   group_pk1	 |   int	| 	referencing the primary key of the group table. 
-  forum_pk1	 |   int	 |   primary key of the forum table. 
+  forum_pk1	 |   int	 |   primary key of the forum table. | Not NULL means it's a forum activity
   internal_handle	 |   varchar(255)	| internal_handle column of the [AS_CORE].navigation_item table. 
   content_pk1	 |   int	| 	primary key of the content table. 
   data| 	nvarchar(255)| 			
