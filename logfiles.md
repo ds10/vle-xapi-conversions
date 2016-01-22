@@ -5,26 +5,26 @@ The moodle plugin is a log file extension, and therefore can only use items in t
 
    field | type | more | xapi 
    ---|---|---|---
-   `id` |bigint(10) |NOT NULL AUTO_INCREMENT | NOT USED
- `eventname`|  varchar(255) | NOT NULL DEFAULT '', | used by plugin to determine verb
-  `component`|  varchar(100)|  NOT NULL DEFAULT '', | used to construct part of object ID
-  `action`|  varchar(100) | NOT NULL DEFAULT '', | used to construct part of object ID
-  `target`|  varchar(100)|  NOT NULL DEFAULT '',| NOT USED
-  `objecttable` | varchar(50)|  DEFAULT NULL,| NOT USED
-  `objectid` | bigint(10) | DEFAULT NULL,| NOT USED
-  `crud` | varchar(1) | NOT NULL DEFAULT '',| NOT USED
-  `edulevel` | tinyint(1) | NOT NULL,| NOT USED
-  `contextid`|  bigint(10)|  NOT NULL,| NOT USED
-  `contextlevel` | bigint(10)|  NOT NULL,| NOT USED
-  `contextinstanceid` | bigint(10)|  NOT NULL,| NOT USED
-  `userid` | bigint(10)|  NOT NULL,| actor.account.name
-  `courseid` | bigint(10) | DEFAULT NULL  | maps to courseid
-  `relateduserid`|  bigint(10) | DEFAULT NULL, | NOT USED
-  `anonymous` | tinyint(1)|  NOT NULL DEFAULT '0', | NOT USED
+   `id` |bigint(10) |AUTO_INCREMENT | NOT USED
+ `eventname`|  varchar(255) |  | used by plugin to determine verb
+  `component`|  varchar(100)|  | used to construct part of object ID
+  `action`|  varchar(100) |  | used to construct part of object ID
+  `target`|  varchar(100)|  | NOT USED
+  `objecttable` | varchar(50)|  | NOT USED
+  `objectid` | bigint(10) | | NOT USED
+  `crud` | varchar(1) | | NOT USED
+  `edulevel` | tinyint(1) | | NOT USED
+  `contextid`|  bigint(10)|  | NOT USED
+  `contextlevel` | bigint(10)|  | NOT USED
+  `contextinstanceid` | bigint(10)|  | NOT USED
+  `userid` | bigint(10)|  internal Moodle ID| actor.account.name
+  `courseid` | bigint(10) | internal moodle id | maps to courseid
+  `relateduserid`|  bigint(10) |  | NOT USED
+  `anonymous` | tinyint(1)|   | NOT USED
   `other`|  longtext| ,| NOT USED
-  `timecreated` | bigint(10) | NOT NULL,| timestamp
-  `origin`|  varchar(10)|  DEFAULT NULL, | NOT USED
-  `ip` | varchar(45) | DEFAULT NULL, | NOT USED
+  `timecreated` | bigint(10) | Unix timestamp | timestamp
+  `origin`|  varchar(10)|  | NOT USED
+  `ip` | varchar(45) |  | NOT USED
   `realuserid`|  bigint(10)|  DEFAULT NULL, | NOT USED
 
 
@@ -44,7 +44,7 @@ Docs for activity_accumulator
   internal_handle	 |   varchar(255)	| internal_handle column of the [AS_CORE].navigation_item table. 
   content_pk1	 |   int	| 	primary key of the content table. 
   data| 	nvarchar(255)| 			
-  timestamp	| datetime| 	
+  timestamp	| datetime| ISO format	
   status| 	numeric	| 			
   messages| 	ntext	| 				
   session_id	| int	| 			
