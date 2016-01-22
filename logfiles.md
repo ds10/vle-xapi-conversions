@@ -50,6 +50,8 @@ The moodle plugin is a log file extension, and therefore can only use items in t
 ```
 **Verb and object**
 
+Note: This is a wide table with horizontal scroll bars
+
        [moodle.eventname] | route | verb | object.id | object.definition.type
        ---|---|---|---|---
         '\core\event\course_viewed' | 'CourseViewed',| http://id.tincanapi.com/verb/viewed
