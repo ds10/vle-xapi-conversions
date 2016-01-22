@@ -1,5 +1,7 @@
 ## Core variable
 ```
+These are defined by the translator to help with xAPI recipes
+
    uriBase = 'http://vle.jisc.ac.uk/'
    appurl = 'http://vle.jisc.ac.uk/'
    homepage = "http://vle.jisc.ac.uk/";
