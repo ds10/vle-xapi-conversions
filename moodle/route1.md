@@ -1,6 +1,11 @@
-### A1 
-[moodle manual](manual/A1.js)
-[moodle auto](auto/A1.js)
+### A1 demouser login
+
+1	'\\core\\event\\user_loggedin'	'core'	'loggedin'	'user'	'user'	3	'r'	0	1	10	0	3	0	NULL	0	'a:1:{s:8:\"username\";s:8:\"demouser\";}'	1453204740	'web'	'86.156.130.212'	NULL
+
+
+•[moodle manual](manual/A1.js)
+•[moodle auto](auto/A1.js)
+
 11:55 demouser login 
 
 ###A2 [view](A2.js)
