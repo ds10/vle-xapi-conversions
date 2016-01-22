@@ -1,5 +1,5 @@
 ## Core variable
-
+```
    uriBase = 'http://vle.jisc.ac.uk/'
    appurl = 'http://vle.jisc.ac.uk/'
    homepage = "http://vle.jisc.ac.uk/";
@@ -7,6 +7,7 @@
    appsummary= 'Jisc VLE'
    appname = 'Jisc VLE';
    lang = 'en';
+```
 
 ##Moodle
 
