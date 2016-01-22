@@ -1,5 +1,5 @@
 ## Core variable
-```
+
 These are defined by the translator to help with xAPI recipes
 
    name | example
@@ -11,7 +11,7 @@ These are defined by the translator to help with xAPI recipes
    appsummary|'Jisc VLE'
    appname | 'Jisc VLE';
    lang | 'en';
-```
+
 
 ##Moodle
 
