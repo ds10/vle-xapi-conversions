@@ -4,7 +4,7 @@ The moodle plugin is a log file extension, and therefore can only use items in t
 
 
    field | type | more | xapi 
-   ---|---|--- |
+   ---|---|---|---
    `id` |bigint(10) |NOT NULL AUTO_INCREMENT | not used
  `eventname`|  varchar(255) | NOT NULL DEFAULT '', | used by plugin to determine verb
   `component`|  varchar(100)|  NOT NULL DEFAULT '', | used to construct part of object ID
