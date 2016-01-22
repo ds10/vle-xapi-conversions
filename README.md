@@ -2,5 +2,5 @@
 
 Documentation to support historic log file translation in xAPI
 
-[Routes](moodle/route1.md)
-[Logfiles] (logfiles.md)
+*  [Routes](moodle/route1.md)
+* [Logfiles] (logfiles.md)
