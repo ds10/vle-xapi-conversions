@@ -33,10 +33,10 @@ The moodle plugin is a log file extension, and therefore can only use items in t
 Docs for activity_accumulator
 (http://library.blackboard.com/ref/1cd128b5-9264-4afa-bb75-ec72ad211158/tables/as_core/activity_accumulator.html#column-event_type)
     
-    field | type | more
-   ---|---|---
+    field | type | more|xapi
+   ---|---|---|---
   pk1	  |  int		 |   This is the surrogate primary key for the table
-  event_type| 	   varchar(30)	| 			
+  event_type| 	   varchar(30)	| 	either COURSE_ACCESS or CONTENT_ACCESS		
   user_pk1	|    int	| 	referencing the primary key of the [AS_CORE].users table. 
   course_pk1| 	int	|    referencing the primary key of the [AS_CORE].course_main table.
   group_pk1	 |   int	| 	referencing the primary key of the group table. 
